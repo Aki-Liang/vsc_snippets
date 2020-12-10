@@ -1,0 +1,21 @@
+{
+	"nil err":{
+		"scope": "golang",
+		"prefix":"nilerr",
+		"body":[
+			"if nil != $1 {",
+			"$2",
+			"}"
+		],
+		"description": "error proc"
+	},
+
+	"todo":{
+		"scope": "golang",
+		"prefix":"todo",
+		"body":[
+			"//TODO: $1 [renzhi 2020-$2-$3]"
+		],
+		"description": "todo stuff"
+	}
+}
